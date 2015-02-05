@@ -30,10 +30,4 @@ function playHadouken () {
   $('#hadouken-sound')[0].volume = 0.5;
   $('#hadouken-sound')[0].load();
   $('#hadouken-sound')[0].play();
-});
-$(document).keydown(function() {
-  if(event.which==88) {
-    // ryu cool pose
-  }
-  }}
 }
